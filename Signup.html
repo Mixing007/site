@@ -1,0 +1,202 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Responsive Sticky Navbar</title>
+  <link rel="icon" href="images/icon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="aos.js">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="page2">
+    <header>
+      <div class="bs-example">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <img src="./images/8.png" class="navbar-brand">
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ml-auto">
+              <a href="Signup.html" class="nav-item nav-link">Sign Up</a>
+              <a href="index.html" class="nav-item nav-link active">Home</a>
+              <a href="#" class="nav-item nav-link">Contact</a>
+              <a href="#" class="nav-item nav-link">About</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 mx-auto">
+            <div id="first">
+              <div class="myform form ">
+                <div class="logo mb-3">
+                  <div class="col-md-12 text-center">
+                    <h1>Login</h1>
+                  </div>
+                </div>
+                <form action="" method="post" name="login">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp"
+                      placeholder="Enter email">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Password</label>
+                    <input type="password" name="password" id="password" class="form-control"
+                      aria-describedby="emailHelp" placeholder="Enter Password">
+                  </div>
+                  <div class="form-group">
+                    <p class="text-center">By signing up you accept our <a href="#">Terms Of Use</a></p>
+                  </div>
+                  <div class="col-md-12 text-center ">
+                    <button type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">Login</button>
+                  </div>
+                  <div class="col-md-12 ">
+                    <div class="login-or">
+                      <hr class="hr-or">
+                      <span class="span-or">or</span>
+                    </div>
+                  </div>
+                  <div class="col-md-12 mb-3">
+                    <p class="text-center">
+                      <a href="javascript:void();" class="google btn mybtn"><i class="fa fa-google-plus">
+                        </i> Signup using Google
+                      </a>
+                    </p>
+                  </div>
+                  <div class="form-group">
+                    <p class="text-center">Don't have account? <a href="#" id="signup">Sign up here</a></p>
+                  </div>
+                </form>
+
+              </div>
+            </div>
+            <div id="second">
+              <div class="myform form ">
+                <div class="logo mb-3">
+                  <div class="col-md-12 text-center">
+                    <h1>Signup</h1>
+                  </div>
+                </div>
+                <form action="#" name="registration">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">First Name</label>
+                    <input type="text" name="firstname" class="form-control" id="firstname" aria-describedby="emailHelp"
+                      placeholder="Enter Firstname">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Last Name</label>
+                    <input type="text" name="lastname" class="form-control" id="lastname" aria-describedby="emailHelp"
+                      placeholder="Enter Lastname">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp"
+                      placeholder="Enter email">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Password</label>
+                    <input type="password" name="password" id="password" class="form-control"
+                      aria-describedby="emailHelp" placeholder="Enter Password">
+                  </div>
+                  <div class="col-md-12 text-center mb-3">
+                    <button type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">Get Started For Free</button>
+                  </div>
+                  <div class="col-md-12 ">
+                    <div class="form-group">
+                      <p class="text-center"><a href="#" id="signin">Already have an account?</a></p>
+                    </div>
+                  </div>
+
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <!-- Footer main -->
+      <section class="ft-main">
+        <div class="ft-main-item">
+          <h2 class="ft-title">About</h2>
+          <ul>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="ft-main-item">
+          <h2 class="ft-title">Contact</h2>
+          <ul>
+            <li><a href="#"><i class="far fa-envelope"></i> Email: johnnygs@gmail.com</a></li>
+            <li><a href="#"><i class="fas fa-phone"></i> Phone: 204-999-9903</a></li>
+            <li><a href="#"><i class="fas fa-map-marker-alt"></i> Address: 172 Main St, Winnipeg, MB R3C 1A6</a>
+            </li>
+          </ul>
+        </div>
+        <div class="ft-main-item">
+          <h2 class="ft-title">Sign Up</h2>
+          <p>Subscribe to our newsletter to get our latest news.</p>
+          <form>
+            <input type="email" name="email" placeholder="Enter email address">
+            <input type="submit" value="Subscribe">
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer social -->
+      <section class="ft-social">
+        <ul class="ft-social-list">
+          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-github"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+      </section>
+
+      <!-- Footer legal -->
+      <section class="ft-legal">
+        <ul class="ft-legal-list">
+          <li><a href="#">Terms &amp; Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li>&copy; 2019 Copyright Nowrap Inc.</li>
+        </ul>
+      </section>
+    </footer>
+
+
+
+
+
+  </div>
+
+
+
+
+</body>
+
+</html>
+
+<script src="https://kit.fontawesome.com/6976ec7ef6.js" crossorigin="anonymous"></script>

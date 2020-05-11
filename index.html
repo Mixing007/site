@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Sticky Navbar</title>
+    <link rel="icon" href="images/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aos.js">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="bs-example">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <img src="./images/8.png" class="navbar-brand">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="Signup.html" class="nav-item nav-link">Sign Up</a>
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="#" class="nav-item nav-link">Contact</a>
+                        <a href="#" class="nav-item nav-link">About</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/1.jpg" class="d-block w-100 img-fluid" alt="...">
+                    <div class="carousel-caption" class="animated fadeIn" style="animation-delay: .2s;">
+                        <small class="animated fadeInUp" style="animation-delay: .3s;">Welcome to Johnny G's </small>
+                        <h3 class="animated fadeInUp" style="animation-delay: .3s;">The Best Restautant in Winnipeg
+                        </h3>
+                        <p class="animated fadeInDown" style="animation-delay: .3s;">Your Best Experience
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/21.jpg" class="d-block w-100 img-fluid" alt="...">
+                    <div class="carousel-caption" class="animated fadeIn" style="animation-delay: .2s;">
+                        <small class="animated fadeInUp" style="animation-delay: .3s;">Johnny G's in Toronto </small>
+                        <h3 class="animated fadeInUp" style="animation-delay: .3s;">A New Store Opens In Toronto
+                        </h3>
+                        <p class="animated fadeInDown" style="animation-delay: .3s;">Looking forward to your arrival
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+
+
+    <!-- Card -->
+
+
+
+    <div class="card1">
+
+        <div class="container">
+            <div class="col-md-12">
+                <div>
+                    <h1>Johnny G's Menu</h1>
+                </div>
+            </div>
+            <h3 class="mt-3 pb-3 mb-4 font-italic border-bottom">
+                Steak
+            </h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="img-card1">
+                            <img class="card-img-top" src="./images/2.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title border-bottom pb-3">Grilled Beef Steak <span
+                                    class="float-right d-inline-flex share">17$</span></h5>
+                            <p class="card-text">The steak is baked in an oven for 30 minutes. Medium rare is the most
+                                distinctive taste.</p>
+                            <a href="#" class="float-right">Read more <i class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="img-card1">
+                            <img class="card-img-top" src="./images/3.jpeg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title border-bottom pb-3">Sliced Steak with Bone <span
+                                    class="float-right d-inline-flex share">23$</span></h5>
+                            <p class="card-text">Bake on a hot plate until the steak is medium. Then, slice it into thin
+                                slices and sprinkle with black pepper.</p>
+                            <a href="#" class="float-right">Read more <i class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="img-card1">
+                            <img class="card-img-top" src="./images/4.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title border-bottom pb-3">The Steak Sauce <span
+                                    class="float-right d-inline-flex share">15$</span></h5>
+                            <p class="card-text">Steak served with soy sauce is a very unique recipe. Rosemary can make
+                                food taste better.</p>
+                            <a href="#" class="float-right">Read more <i class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="img-card1">
+                            <img class="card-img-top" src="./images/5.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title border-bottom pb-3">Steak And Mashed Potatoes <span
+                                    class="float-right d-inline-flex share">18$</span></h5>
+                            <p class="card-text">Classic grilled medium rare steak with mashed potatoes as a side dish
+                                for a better meal.</p>
+                            <a href="#" class="float-right">Read more <i class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="img-card1">
+                            <img class="card-img-top" src="./images/6.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title border-bottom pb-3">Sliced Garlic Steak <span
+                                    class="float-right d-inline-flex share">25$</span></h5>
+                            <p class="card-text">The chef USES garlic as a condiment and medium rare steak as a
+                                accompaniment for a unique taste.</p>
+                            <a href="#" class="float-right">Read more <i class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="img-card1">
+                            <img class="card-img-top" src="./images/7.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title border-bottom pb-3">Butter Steak <span
+                                    class="float-right d-inline-flex share">24$</span></h5>
+                            <p class="card-text">Classic salted butter with medium rare steak for the best taste. The
+                                sign of our shop.</p>
+                            <a href="#" class="float-right">Read more <i class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <h3 class="mt-3 pb-3 mb-4 font-italic border-bottom">
+                Drink
+            </h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="img-card1">
+                            <img class="card-img-top" src="./images/15.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title border-bottom pb-3">Orange Juice <span
+                                    class="float-right d-inline-flex share">3$</span></h5>
+                            <p class="card-text">The most popular orange juice in our shop. We use fresh fruit. There
+                                are
+                                no additives. Feel free to eat.</p>
+                            <a href="#" class="float-right">Read more <i class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="img-card1">
+                            <img class="card-img-top" src="./images/16.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title border-bottom pb-3">Celery Juice <span
+                                    class="float-right d-inline-flex share">3$</span></h5>
+                            <p class="card-text">The Medical Medium believes: “Plain, fresh celery juice is one of the
+                                most powerful healing juices available to us.</p>
+                            <a href="#" class="float-right">Read more <i class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="img-card1">
+                            <img class="card-img-top" src="./images/17.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title border-bottom pb-3">Carrot Juice <span
+                                    class="float-right d-inline-flex share">4$</span></h5>
+                            <p class="card-text">Fresh pressed carrot juice is to ensure the original taste and
+                                nutrition of carrots. You can also pair it with apples.</p>
+                            <a href="#" class="float-right">Read more <i class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="img-card1">
+                            <img class="card-img-top" src="./images/18.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title border-bottom pb-3">Juice Combo <span
+                                    class="float-right d-inline-flex share">12$</span></h5>
+                            <p class="card-text">It's a great combo. It includes 6 Celery, 2 large Cucumber, 1/2 Lemon,
+                                2 medium Apples.</p>
+                            <a href="#" class="float-right">Read more <i class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="img-card1">
+                            <img class="card-img-top" src="./images/19.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title border-bottom pb-3">Guinness <span
+                                    class="float-right d-inline-flex share">7$</span></h5>
+                            <p class="card-text">When it comes to beer, Ireland has a rich brewing history that can be
+                                traced back more than 300 years. </p>
+                            <a href="#" class="float-right">Read more <i class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="img-card1">
+                            <img class="card-img-top" src="./images/20.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title border-bottom pb-3">Beer <span
+                                    class="float-right d-inline-flex share">5$</span></h5>
+                            <p class="card-text">Beer is loved by everyone.Our store is no exception.Our beer is sold at
+                                a discount every weekend!</p>
+                            <a href="#" class="float-right">Read more <i class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <h3 class="mt-3 pb-3 mb-4 font-italic border-bottom">
+                Dessert
+            </h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="img-card1">
+                            <img class="card-img-top" src="./images/9.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title border-bottom pb-3">Tiramisu <span
+                                    class="float-right d-inline-flex share">10$</span></h5>
+                            <p class="card-text">A very tasty dessert. It was well received by the guests. Is also the
+                                customer of this shop thinks the best!</p>
+                            <a href="#" class="float-right">Read more <i class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="img-card1">
+                            <img class="card-img-top" src="./images/10.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title border-bottom pb-3">Dessert Cup <span
+                                    class="float-right d-inline-flex share">15$</span></h5>
+                            <p class="card-text">The unique style is sought after by customers. Also, this dessert is
+                                one of our most popular desserts.</p>
+                            <a href="#" class="float-right">Read more <i class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="img-card1">
+                            <img class="card-img-top" src="./images/11.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title border-bottom pb-3">Fruit Cake <span
+                                    class="float-right d-inline-flex share">15$</span></h5>
+                            <p class="card-text">Chocolate cake with blueberries and strawberries. The taste of the
+                                fruit and the perfect combination of cake.</p>
+                            <a href="#" class="float-right">Read more <i class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="img-card1">
+                            <img class="card-img-top" src="./images/12.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title border-bottom pb-3">Chocolate Cake <span
+                                    class="float-right d-inline-flex share">20$</span></h5>
+                            <p class="card-text">The combination of chocolate and black forest cake is one of our unique
+                                desserts. Popular too!</p>
+                            <a href="#" class="float-right">Read more <i class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="img-card1">
+                            <img class="card-img-top" src="./images/13.jpeg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title border-bottom pb-3">Cream Cake <span
+                                    class="float-right d-inline-flex share">13$</span></h5>
+                            <p class="card-text">The design of grandma's oil cake in the cup was loved by the guests.
+                                The taste is also very good!</p>
+                            <a href="#" class="float-right">Read more <i class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="img-card1">
+                            <img class="card-img-top" src="./images/14.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title border-bottom pb-3">Cheese Cake <span
+                                    class="float-right d-inline-flex share">8$</span></h5>
+                            <p class="card-text">Cheesecake is the most classic.It is also a cake that our customers
+                                often taste. Rave reviews!</p>
+                            <a href="#" class="float-right">Read more <i class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <footer>
+        <!-- Footer main -->
+        <section class="ft-main">
+            <div class="ft-main-item">
+                <h2 class="ft-title">About</h2>
+                <ul>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Customers</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="ft-main-item">
+                <h2 class="ft-title">Contact</h2>
+                <ul>
+                    <li><a href="#"><i class="far fa-envelope"></i> Email: johnnygs@gmail.com</a></li>
+                    <li><a href="#"><i class="fas fa-phone"></i> Phone: 204-999-9903</a></li>
+                    <li><a href="#"><i class="fas fa-map-marker-alt"></i> Address: 172 Main St, Winnipeg, MB R3C 1A6</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="ft-main-item">
+                <h2 class="ft-title">Sign Up</h2>
+                <p>Subscribe to our newsletter to get our latest news.</p>
+                <form>
+                    <input type="email" name="email" placeholder="Enter email address">
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer social -->
+        <section class="ft-social">
+            <ul class="ft-social-list">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-github"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </section>
+
+        <!-- Footer legal -->
+        <section class="ft-legal">
+            <ul class="ft-legal-list">
+                <li><a href="#">Terms &amp; Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li>&copy; 2019 Copyright Nowrap Inc.</li>
+            </ul>
+        </section>
+    </footer>
+</body>
+
+</html>
+
+<script src="https://kit.fontawesome.com/6976ec7ef6.js" crossorigin="anonymous"></script>
